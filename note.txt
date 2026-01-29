@@ -1,0 +1,9 @@
+pip freeze > requirements.txt
+
+docker-compose up -d
+
+python manage.py collectstatic
+
+
+SECRET_KEY='django-insecure-)^)=&r5^%1+v@up8yur6dgnh*xh55qshmm=iip5ga%3d-ekp*z'
+JWT_SECRET_KEY=o2fw8NPheg0MYlgv_REw_OkFC7B_tYILLBHgqAWzH00
