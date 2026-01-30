@@ -62,6 +62,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'accshop.wsgi.application'
 
+HANDLER_404 = 'core.views.custom_404_view'
+
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
